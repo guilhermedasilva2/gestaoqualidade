@@ -9,6 +9,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DatabaseConnection {
+
     private static final String URL = "jdbc:mysql://localhost:3307/cadastro";
     private static final String USER = "usuario";
     private static final String PASSWORD = "senha";
